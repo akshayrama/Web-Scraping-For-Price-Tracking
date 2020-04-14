@@ -16,7 +16,7 @@ def redirect(URL):
     return driver
 
 URL = '' # Fill in the URL of this a Udemy course site as part of your inital configuration
-headers = { "User-Agent" : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:75.0) Gecko/20100101 Firefox/75.0'}
+headers = { "User-Agent" : ' '} # Fill in your User Agent which can be obtained by googling for "My user agent"
 
 print('Enter the price to check:', end = " ")
 priceToCompare = float(input())
