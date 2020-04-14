@@ -4,6 +4,7 @@ This repository contains code which enables us to automate tracking the prices f
 ## Initial Configuration ##
 After cloning this repository, you will have to set up some inital configuration for this code to work. 
 * You are required to add the URL of the Udemy course site that you wish to track. 
+* You need to supply the User-Agent under headers
 * And lastly, you are requirerd to provide the path of your desirable browser's webdriver.
 
 The places for these provisions are mentioned as part of the code indicated by comments.
